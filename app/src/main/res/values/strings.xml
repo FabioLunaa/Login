@@ -1,11 +1,9 @@
 <resources>
     <string name="app_name">Coctelis</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="desarrollador"> Desarrollado por: OptimusWeb</string>
 
-    <string name="Login_signup">Inicio Sesión/Registro</string>
     <string name="Home">Home</string>
     <string name="Categorias">Categorías</string>
     <string name="Subir_Receta">Subir recetas</string>
@@ -22,7 +20,7 @@
 
     <!--PERFIL-->
     <string name="PERFILTXT">MI PERFIL</string>
-    <string name="MIINFORMACIONTXT">EN ESTA SECCIÓN PUEDES EDITAR TU INFORMACIÓN</string>
+    <string name="MIINFORMACIONTXT">MI INFORMACIÓN</string>
     <string name="UIDPERFILTXT">Uid:</string>
     <string name="UIDPERFIL"> -- </string>
     <string name="NOMBRESPERFILTXT">Nombre: </string>
@@ -50,7 +48,7 @@
     <!--contacto-->
     <string name="Instagram">Instagram: @Coctelis</string>
     <string name="Facebook"> Facebook: Coctelis</string>
-    <string name="Email">Email: coctelis@mail.com</string>
+    <string name="Email">Email: coctelis@gmail.com</string>
 
     <!--registro-->
 
@@ -68,15 +66,49 @@
     <string name="Coctelca">Cócteles Con Alcohol</string>
     <string name="Colctelsa">Cócteles Sin Alcohol</string>
 
+    <!--spinner-->
+    <string-array name="opciones_categoria">
+        <item>Cócteles con alcohol</item>
+        <item>Cócteles sin alcohol</item>
+    </string-array>
+
+    <string name="selecciona_categoria">Selecciona una categoría</string>
+
     <!--Subir_Receta-->
 
-    <string name="SubirReceta">Subir Receta</string>
+    <!--Subir_Receta-->
+
+    <string name="SubirRecetas">Subir Receta</string>
     <string name="AGREGAR">AGREGAR</string>
     <string name="NombreReceta">Nombre</string>
-    <string name="Nombrereceta">Nombre</string>
-    <string name="Ingrediente">Ingrediente</string>
-    <string name="Ingredientes">Ingredientes</string>
-    <string name="Imagen">Agregar Imagen</string>
+    <string name="Ingrediente">Ingredientes</string>
+    <string name="Descripción">Descripción</string>
+    <string name="Categoria">Categoria</string>
+    <string name="Imagen">Imagen</string>
+
+    <!--Menu agregar-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
+    <!--Items Receta sin alcohol-->
+
+    <string name="itemsImagenSinAlcohol">--</string>
+    <string name="itemNombreSinAlcohol">--</string>
+    <string name="itemDescripcionSinAlcohol">--</string>
+
+
+    <!--Items Receta con alcohol-->
+
+    <string name="itemsImagenReceta">--</string>
+    <string name="itemTextImagen">--</string>
+    <string name="itenDescripcionReceta">--</string>
+    <string name="itemIngredientesReceta">--</string>
+
+    <!--Con Alcohol-->
+    <string name="NombreConAlcohol">Nombre de receta</string>
+    <string name="EscribaAquiConAlcohol">Escriba nombre aqui</string>
+    <string name="VistaConAlcohol">0</string>
+    <string name="PublicarConAlchol">Publicar</string>
 
     <!---Sobre nosotros-->
     <string name="OptimusWeb">OptimusWeb</string>
@@ -92,6 +124,7 @@
     Nuestro equipo trabaja en relación conjunta con cada cliente, asegurando el éxito de los proyectos. La cercanía con el cliente es nuestro valor diferencial en el mercado del software.
     ]]>
     </string>
+
     <string name="EDITAR">EDITAR</string>
 
 </resources>

@@ -7,12 +7,6 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/Login_signup"
-            android:title="@string/Login_signup"
-            android:icon="@drawable/inicio_sesion">
-        </item>
-
-        <item
             android:id="@+id/Home"
             android:title="@string/Home"
             android:icon="@drawable/hogar">
@@ -29,6 +23,7 @@
             android:title="@string/Subir_Receta"
             android:icon="@drawable/subir_receta">
         </item>
+
 
         <item
             android:id="@+id/Perfil"

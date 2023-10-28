@@ -38,19 +38,8 @@
             android:textStyle="bold"
             android:background="@drawable/btn_personalizado_dos"
 
-        />
-        <Button
-            android:id="@+id/btnMostrar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="3dp"
-            android:layout_weight="1"
-            android:text="Mostrar"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:radius="10dp"
-            android:background="@drawable/btn_personalizado_dos"
             />
+
         <Button
             android:id="@+id/btnSalir"
             android:layout_width="match_parent"
